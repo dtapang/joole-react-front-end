@@ -1,0 +1,79 @@
+
+/* Header for Product*/
+.project-header-background {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(4,144,255,1) 100%);
+}
+.header-bar{
+    display: inline-flex;
+}
+.header-bar input {
+    width:  75%;
+}
+.header-right{
+    text-align: right;
+    display: inline-flex;
+}
+.header-layout div{
+    display: inline-flex;
+    height: min-content;
+}
+.header-layout img{
+    display: flex;
+    max-height: 5em;
+}
+.header-row{
+    display: inline-flex;
+}
+
+/*small input for Product Slider*/
+.sm-input input{
+    width:  15%;
+}
+
+/*Product page background*/
+.page-background {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(4,144,255,1) 100%);
+}
+
+/*Product Search*/
+.searcher input{
+    width: 100%;
+    display: flex;
+}
+
+/*Product accordion*/
+.accordion-content-span{
+    display: flex;
+}
+
+/*product list */
+.product-list-view{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    border-spacing: 5em;
+}
+
+.break-after:after { content: '\A'; white-space:pre; }
+
+/* Product Card*/
+
+.tsPec{
+    background: lightgray;
+    color: dimgrey;
+}
+.psPec{
+    color: darkred;
+}
+.card-root{
+    max-width: 250px;
+    min-height: 500px;
+    max-height: 500px;
+    margin: 10px;
+}
+.media-height {
+    height: 140px;
+}
